@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>
+            PAYMENT FORM
+        </title>
+        <link rel="stylesheet" href="form.css" />
+    </head>
+    <body>
+        <div class="container">
+        <div id="head">
+        <h1>PAYMENT FORM</h1>
+    </div>
+        <hr>
+        Name<input type="text" id="information" placeholder="ALI"  name="name" required/>
+        <p><fieldset>
+            <legend>Gender</legend>
+            MALE <input type="radio" id="gen" name="gender" required/>
+            FEMALE <input type="radio" id="gen" name="gender" required/>
+        </fieldset>
+    </p>
+        <p>
+            <legend>Address</legend>
+            <textarea name="add" id="information" name="address" cols="50" rows="10" required></textarea>
+
+        </p>
+        <p>
+        Email <input type="email" id="information" name="email" />
+        </p>
+        <p>
+            Pincode <input type="number" id="information" name="pincode" required/>
+        </p>
+        
+        <p>
+            <h1>
+                payment information
+            </h1>
+            <hr>
+        </p>
+        <p>
+            CARD TYPE
+
+        <select>
+            <option value="">----SELECT CARD TYPE----</option>
+            <option value="VISA"><i>VISA</i></option>
+            <option value="RUPAY"><I>RUPAY</I></option>
+            <option value="MASTER CARD"><I>MASTER CARD</I></option>
+            <option value="STUDENT"><I>STUDENT</I></option>
+        </select>
+        </p>
+        <p>
+            Card number <input type="number" id="information" name="num" required/>
+        </p>
+        <p>
+            EXP DATE <input type="date" id="information" name="exp date" required/>
+        </p>
+        <p>
+            cvv <input type="password" id="information" name="cvv" required/>
+        </p>
+
+        <p>
+            <input type="submit" value="Paynow" id="pay" name="done" />
+        </p>
+        </div>
+
+    
+    </body>
+</html>

@@ -1,0 +1,27 @@
+p {
+  color: rgb(250, 71, 26);
+  font-size: xx-large;
+  font-weight: bold;
+}
+h1 {
+  color: brown;
+}
+h2 {
+  color: chartreuse;
+}
+
+h2 + p {
+  color: rebeccapurple;
+}
+
+h3 p {
+  color: seagreen;
+  font-size: 300%;
+  font-weight: 900;
+  font-style: inherit;
+}
+a:hover {
+  font-size: xx-large;
+  color: blue;
+  text-decoration: antiquewhite;
+}

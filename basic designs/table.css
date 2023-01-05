@@ -1,0 +1,25 @@
+table{
+    padding: 20px;
+    margin:100px;
+    background-color: pink;
+    
+}
+table,tr ,th{
+    border:2px black solid;
+    border-collapse:collapse;
+    padding: 5px;
+    border-spacing: 10px;
+}
+tfoot{
+    text-transform: uppercase;
+    background-color: yellow;
+}
+#akshir{
+    background-color:brown;
+}
+#r{
+    background-color: red;
+}
+thead{
+    background-color: red;
+}

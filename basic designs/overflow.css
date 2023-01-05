@@ -1,0 +1,24 @@
+p{
+    padding: 200px;
+    margin: 20px;
+    border: 2px dotted red;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    height: 200px;
+    font-style: italic;
+    text-decoration: overline pink;
+    overflow:scroll ;
+}
+div{
+    padding: 2px;
+    border: 2px solid black;
+    margin:20px;
+    width: 100px;
+    height: 100px;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+    object-fit: contain;
+}

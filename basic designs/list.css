@@ -1,0 +1,19 @@
+#a {
+  
+
+  text-transform: uppercase;
+
+}
+nav a{
+    padding:2px;
+    background-color: blue;
+    color:white;
+}
+nav a:hover{
+    color: orange;
+    background-color: black;
+}
+nav a:visited{
+    color: crimson;
+    background-color: white;
+}

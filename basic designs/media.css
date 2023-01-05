@@ -1,0 +1,48 @@
+#same,#sss{
+    color: darkmagenta;
+    text-anchor: middle;
+    font: bold;
+    font-size: xx-large;
+}
+li.special
+{
+    list-style: square;
+    color: darkred;
+    font-size: x-large;
+}
+.tafsir{
+    color: green;
+    font-weight: bold;
+}
+h2 p .toko{
+    color: rgb(132, 92, 205);
+    font-size: xx-large;
+    background-color: lawngreen;
+}
+p#one{
+    color: red;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#set{
+    color: magenta;
+}
+li[class="d"]{
+    color: rgb(211, 60, 33);
+    font-size: xx-large;
+
+}
+li[class~="d"]{
+    color: orange;
+    font-size: x-large;
+    border-color: blue;
+    background-color: chartreuse;
+}
+*{
+    color: peru;
+}
+
+p legend{
+    color: blue;
+}

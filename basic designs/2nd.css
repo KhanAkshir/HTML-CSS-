@@ -1,0 +1,21 @@
+body{
+    font-size: 5vh;
+}
+html{
+    font-size: 3vh;
+}
+.id{
+    font-size: 1rem;
+}
+p{
+    height: 10in;
+    background-image: linear-gradient(red, yellow);
+    padding: 100px;
+    margin:20PX;
+    border: 10px dotted rgb(0, 13, 14);
+    
+}
+.color
+{
+    background-color: blue;
+}

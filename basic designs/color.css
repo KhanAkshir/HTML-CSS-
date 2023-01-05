@@ -1,0 +1,46 @@
+li{
+    color: black;
+    background-color: rgb(200, 162, 236);
+    font-size: xx-large;
+    width: 5%;
+    list-style-image: url("D:\download.jpg");
+    width: 100px;
+    list-style-type: lower-alpha;
+}
+li#red{
+    color: red;
+    background-image: url("D:\download.jpg");
+    font-size: xx-large;
+    font-family:cursive;
+    font-weight: 900;
+    width: 100px;  
+    list-style: lower-alpha; 
+}
+.background{
+    
+    
+    color: red;
+    text-align: left;
+    text-decoration: underline rgb(111, 0, 255);
+    text-shadow: -5px -5px 2px black;
+    text-transform:uppercase;
+    text-indent: 30%;
+    letter-spacing: 1em;
+    font-family: Syne Tactile;
+    word-spacing: 2em;
+    font-size: xx-large;
+    line-height: 4em;
+    border-style: dotted;
+    border-color: blue;
+    font-weight: 700;
+
+
+}
+.background #b{
+    font-size: 100px;
+    color: blue;
+    background-color: black;
+    text-indent: 0%;   
+    text-align:center;
+    font-family: rowdies;
+}
